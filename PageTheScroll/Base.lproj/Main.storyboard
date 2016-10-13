@@ -31,17 +31,20 @@
                                     <constraint firstAttribute="height" constant="168" id="P8U-hU-ogJ"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijv-pc-QCD"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijv-pc-QCD">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="6Jq-9V-Vwe"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ePg-b3-eJI" secondAttribute="bottom" id="16X-Hf-lp0"/>
-                            <constraint firstItem="ijv-pc-QCD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2AC-8K-7uA"/>
-                            <constraint firstAttribute="trailing" secondItem="ijv-pc-QCD" secondAttribute="trailing" id="FG8-JD-0PL"/>
                             <constraint firstAttribute="trailing" secondItem="QL2-H1-Oo0" secondAttribute="trailing" constant="20" id="Imf-JU-BsR"/>
                             <constraint firstItem="ijv-pc-QCD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NGk-IT-3lV"/>
                             <constraint firstItem="QL2-H1-Oo0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="NzH-nw-ZI0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ijv-pc-QCD" secondAttribute="bottom" id="Pq1-ic-DnF"/>
+                            <constraint firstItem="ijv-pc-QCD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bvI-nC-yQj"/>
                             <constraint firstItem="ePg-b3-eJI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dTf-VV-Den"/>
                             <constraint firstAttribute="trailing" secondItem="ePg-b3-eJI" secondAttribute="trailing" id="eX4-FV-odn"/>
                             <constraint firstItem="Xje-xh-Mm0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pJn-M8-MpO"/>
